@@ -6,5 +6,5 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 
-app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute("default", "{controller=About}/{action=Index}/{id?}");
 app.Run();

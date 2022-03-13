@@ -2,7 +2,7 @@
 
 namespace Mashimport.Controllers.Home
 {
-    public class HomeController : Controller
+    public class AboutController : Controller
     {
         public IActionResult Index()
         {
