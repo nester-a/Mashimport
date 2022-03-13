@@ -6,7 +6,7 @@ namespace Mashimport.Controllers.Home
     {
         public IActionResult Index()
         {
-            return Content("Hello world");
+            return View();
         }
     }
 }
