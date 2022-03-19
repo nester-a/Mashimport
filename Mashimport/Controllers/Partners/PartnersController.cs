@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Mashimport.Controllers.Home
+namespace Mashimport.Controllers.Partners
 {
-    public class AboutController : Controller
+    public class PartnersController : Controller
     {
         public IActionResult Index() => View();
     }
